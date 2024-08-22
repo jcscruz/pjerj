@@ -1,0 +1,16 @@
+/Users/julio.cruz/jrepo/pjerj/gilliard/src/Application/obj/Debug/net8.0/Application.csproj.AssemblyReference.cache
+/Users/julio.cruz/jrepo/pjerj/gilliard/src/Application/obj/Debug/net8.0/Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/julio.cruz/jrepo/pjerj/gilliard/src/Application/obj/Debug/net8.0/Application.AssemblyInfoInputs.cache
+/Users/julio.cruz/jrepo/pjerj/gilliard/src/Application/obj/Debug/net8.0/Application.AssemblyInfo.cs
+/Users/julio.cruz/jrepo/pjerj/gilliard/src/Application/obj/Debug/net8.0/Application.csproj.CoreCompileInputs.cache
+/Users/julio.cruz/jrepo/pjerj/gilliard/src/Application/obj/Debug/net8.0/Application.sourcelink.json
+/Users/julio.cruz/jrepo/pjerj/gilliard/src/Application/bin/Debug/net8.0/Application.deps.json
+/Users/julio.cruz/jrepo/pjerj/gilliard/src/Application/bin/Debug/net8.0/Application.dll
+/Users/julio.cruz/jrepo/pjerj/gilliard/src/Application/bin/Debug/net8.0/Application.pdb
+/Users/julio.cruz/jrepo/pjerj/gilliard/src/Application/bin/Debug/net8.0/Domain.dll
+/Users/julio.cruz/jrepo/pjerj/gilliard/src/Application/bin/Debug/net8.0/Domain.pdb
+/Users/julio.cruz/jrepo/pjerj/gilliard/src/Application/obj/Debug/net8.0/Application.csproj.CopyComplete
+/Users/julio.cruz/jrepo/pjerj/gilliard/src/Application/obj/Debug/net8.0/Application.dll
+/Users/julio.cruz/jrepo/pjerj/gilliard/src/Application/obj/Debug/net8.0/refint/Application.dll
+/Users/julio.cruz/jrepo/pjerj/gilliard/src/Application/obj/Debug/net8.0/Application.pdb
+/Users/julio.cruz/jrepo/pjerj/gilliard/src/Application/obj/Debug/net8.0/ref/Application.dll

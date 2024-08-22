@@ -1,0 +1,12 @@
+/Users/julio.cruz/jrepo/pjerj/gilliard/src/Domain/bin/Debug/net8.0/Domain.deps.json
+/Users/julio.cruz/jrepo/pjerj/gilliard/src/Domain/bin/Debug/net8.0/Domain.dll
+/Users/julio.cruz/jrepo/pjerj/gilliard/src/Domain/bin/Debug/net8.0/Domain.pdb
+/Users/julio.cruz/jrepo/pjerj/gilliard/src/Domain/obj/Debug/net8.0/Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/julio.cruz/jrepo/pjerj/gilliard/src/Domain/obj/Debug/net8.0/Domain.AssemblyInfoInputs.cache
+/Users/julio.cruz/jrepo/pjerj/gilliard/src/Domain/obj/Debug/net8.0/Domain.AssemblyInfo.cs
+/Users/julio.cruz/jrepo/pjerj/gilliard/src/Domain/obj/Debug/net8.0/Domain.csproj.CoreCompileInputs.cache
+/Users/julio.cruz/jrepo/pjerj/gilliard/src/Domain/obj/Debug/net8.0/Domain.sourcelink.json
+/Users/julio.cruz/jrepo/pjerj/gilliard/src/Domain/obj/Debug/net8.0/Domain.dll
+/Users/julio.cruz/jrepo/pjerj/gilliard/src/Domain/obj/Debug/net8.0/refint/Domain.dll
+/Users/julio.cruz/jrepo/pjerj/gilliard/src/Domain/obj/Debug/net8.0/Domain.pdb
+/Users/julio.cruz/jrepo/pjerj/gilliard/src/Domain/obj/Debug/net8.0/ref/Domain.dll
