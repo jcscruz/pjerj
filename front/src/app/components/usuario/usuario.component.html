@@ -1,2 +1,32 @@
-<p>usuario works!</p>
-<app-usuario-form [btnText]="btnText"></app-usuario-form>
+
+<div class="container">
+    <h2>Usuários do Sistema</h2>
+    <div>
+        <label class="label" for="dropdown">Selecione o tipo de usuário: </label>
+        <select id="dropdown" (change)="onChange($event)" [(ngModel)]="selectedOption">
+          <option *ngFor="let option of options" [value]="option">{{ option }}</option>
+        </select>
+        <p>Tipo de usuário selecionado: {{ selectedOption }}</p>
+      </div>
+
+    <table border="1">
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Matrícula</th>
+            <th>Data de Nascimento</th>
+            <th>Email</th>
+            <th>Origem</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let usuario of usuarios">
+            <td>{{usuario.name}}</td>
+            <td>{{usuario.registration}}</td>
+            <td>{{usuario.dateOfBirth}}</td>
+            <td>{{usuario.emailAddress}}</td>
+            <td>{{usuario.origin}}</td>
+        </tr>
+    </tbody>
+    </table>
+</div>

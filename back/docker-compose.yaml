@@ -1,0 +1,28 @@
+services:
+  postgres:
+    image: postgres:15
+    container_name: my_postgres
+    environment:
+      POSTGRES_DB: mydatabase
+      POSTGRES_USER: myuser
+      POSTGRES_PASSWORD: mypassword
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  web:
+    build:
+      context: . 
+      dockerfile: Dockerfile 
+    container_name: julio_web_api
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ConnectionStrings__DefaultConnection: "Host=postgres;Database=mydatabase;Username=myuser;Password=mypassword"
+    ports:
+      - "5001:5000"
+    depends_on:
+      - postgres
+
+volumes:
+  postgres_data:

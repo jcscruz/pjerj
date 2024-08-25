@@ -1,1 +1,166 @@
-/* You can add global styles to this file, and also import other style files */
+/* Estilo Global */
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #202124; /* Cor do texto */
+  background-color: #f1f3f4; /* Cor de fundo clara */
+}
+
+.container {
+  padding: 0 20px;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #ffffff; /* Cor de fundo da navbar */
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra para destacar a navbar */
+}
+
+.navbar-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between; /* Espaço igual entre itens */
+}
+
+.navbar-item {
+  margin: 0;
+}
+
+.navbar-link {
+  color: #1a73e8; /* Cor do texto do link */
+  text-decoration: none;
+  font-size: 16px;
+  padding: 8px 15px;
+  border-radius: 4px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar-link:hover {
+  background-color: #e8f0fe; /* Cor de fundo ao passar o mouse */
+  color: #0c4b7a; /* Cor do texto ao passar o mouse */
+}
+
+/* Dropdown */
+select {
+  width: 100%;
+  max-width: 250px;
+  padding: 10px 14px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #fff;
+  appearance: none;
+  cursor: pointer;
+  transition: border-color 0.3s, background-color 0.3s;
+}
+
+select:focus {
+  border-color: #1a73e8; /* Cor da borda ao focar */
+  outline: none;
+}
+
+.select-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.select-wrapper::after {
+  content: '\25BC'; /* Unicode para a seta para baixo */
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 14px;
+  color: #aaa;
+  pointer-events: none;
+}
+
+/* Títulos */
+.label, h1, h2, h3 {
+  color: #202124;
+  margin: 0;
+  padding: 20px 0;
+}
+
+.label {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 26px;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+h2 {
+  font-size: 22px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+/* Tabelas */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table th, table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+table th {
+  background-color: #f9f9f9;
+  color: #202124;
+}
+
+table tr:hover {
+  background-color: #f5f5f5; /* Cor de fundo ao passar o mouse sobre a linha */
+}
+
+/* Footer */
+.footer {
+  background-color: #ffffff;
+  padding: 20px 0;
+  text-align: center;
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); /* Sombra para destacar o footer */
+  position: relative; /* Alterado para não ficar fixo na parte inferior */
+}
+
+.footer-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-item {
+  margin: 0 10px;
+}
+
+.footer-link {
+  color: #1a73e8;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.3s;
+}
+
+.footer-link:hover {
+  color: #0c4b7a; /* Cor do texto ao passar o mouse */
+}
+
+/* Estilo do Conteúdo */
+.content {
+  min-height: calc(100% - 80px); /* Ajuste para considerar a altura do footer */
+  box-sizing: border-box;
+  padding-bottom: 80px; /* Espaço para o footer */
+}

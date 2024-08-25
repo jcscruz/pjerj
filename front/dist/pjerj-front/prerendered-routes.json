@@ -1,0 +1,7 @@
+{
+  "routes": [
+    "/",
+    "/tipo-usuario",
+    "/usuario"
+  ]
+}
